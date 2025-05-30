@@ -1,6 +1,7 @@
 // src/pages/portfolio.js
-import Navbar from './components/Navbar';
+import Navbar from 'src\app\components\Navbar.jsx';
 import ProjectCard from "./components/Projectcard.jsx";
+import Hero from "src\app\components\Hero.jsx./components/Hero"
 
 const projects = [
   {
