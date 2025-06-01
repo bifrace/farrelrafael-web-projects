@@ -24,28 +24,30 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="relative min-h-screen bg-gray-50 dark:bg-gray-900">
-      <BackgroundEffect /> {/* Tempatkan di paling atas */}
+    <div className="min-h-screen">
       <Navbar />
-      <Hero />
-      <Projects />
 
-      <main className="container mx-auto px-4 py-12 relative z-10">
-        <section className="mb-12 text-center">
-          <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
-            My Projects
-          </h1>
-          <p className="mt-2 text-gray-600 dark:text-gray-300">
+      {/* Hero Section with Background GIF */}
+      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
+        <BackgroundEffect />
+        <Hero />
+      </section>
+
+      {/* Projects Section with dark background */}
+      <section id="projects" className="bg-gray-900 text-white py-16">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold text-center mb-4">My Projects</h1>
+          <p className="text-center text-gray-300 mb-10">
             Koleksi project saya dengan fitur keamanan terbaik.
-          </p>
-        </section>
+            </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </div>
         </div>
-      </main>
+      </section>
     </div>
   );
 }
