@@ -1,8 +1,8 @@
 // src/pages/portfolio.js
-import Navbar from "src\app\components\Navbar.jsx";
-import ProjectCard from "src\app\components\Projectcard.jsx";
-import Hero from "src\app\components\Hero.jsx";
-import Projects from "src\app\components\Projects.jsx";
+import Navbar from "./src/app/components/Navbar";
+import ProjectCard from "./src/app/components/Projectcard";
+import Hero from "./src/app/components/Hero";
+import Projects from "./src/app/components/Projects";
 
 const projects = [
   {
