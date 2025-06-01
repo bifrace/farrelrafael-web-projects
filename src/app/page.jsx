@@ -3,6 +3,7 @@ import Navbar from "@/app/components/Navbar";
 import ProjectCard from "@/app/components/Projectcard";
 import Hero from "@/app/components/Hero";
 import Projects from "@/app/components/Projects";
+import BackgroundEffect from "@/app/components/BackgroundEffect";
 
 const projects = [
   {
@@ -23,11 +24,13 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="relative min-h-screen bg-gray-50 dark:bg-gray-900">
+      <BackgroundEffect /> {/* Tempatkan di paling atas */}
       <Navbar />
       <Hero />
-      <Projects /> 
-      <main className="container mx-auto px-4 py-12">
+      <Projects />
+
+      <main className="container mx-auto px-4 py-12 relative z-10">
         <section className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
             My Projects

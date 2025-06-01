@@ -1,10 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import BackgroundEffect from "@/app/components/BackgroundEffect";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-[80vh] text-center px-4">
+    
+    <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4">
+      
+      {/* Background Effect */}
+      <BackgroundEffect />
+
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
