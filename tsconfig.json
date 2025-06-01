@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -12,11 +16,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"]
-    },
+      "incremental": true,
     "plugins": [
       {
         "name": "next"

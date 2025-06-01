@@ -1,8 +1,8 @@
 // src/pages/portfolio.js
-import Navbar from "./src/app/components/Navbar";
-import ProjectCard from "./src/app/components/Projectcard";
-import Hero from "./src/app/components/Hero";
-import Projects from "./src/app/components/Projects";
+import Navbar from "@/app/components/Navbar";
+import ProjectCard from "@/app/components/Projectcard";
+import Hero from "@/app/components/Hero";
+import Projects from "@/app/components/Projects";
 
 const projects = [
   {
