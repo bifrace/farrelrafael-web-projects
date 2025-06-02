@@ -4,6 +4,7 @@ import ProjectCard from "@/app/components/Projectcard";
 import Hero from "@/app/components/Hero";
 import Projects from "@/app/components/Projects";
 import BackgroundEffect from "@/app/components/BackgroundEffect";
+import Marquetag from "@/app/components/Marquetag";
 
 const projects = [
   {
@@ -26,6 +27,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen">
       <Navbar />
+      <Marquetag />
 
       {/* Hero Section with Background GIF */}
       <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
