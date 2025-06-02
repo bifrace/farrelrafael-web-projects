@@ -5,6 +5,7 @@ import Hero from "@/app/components/Hero";
 import Projects from "@/app/components/Projects";
 import BackgroundEffect from "@/app/components/BackgroundEffect";
 import Marquetag from "@/app/components/Marquetag";
+import Worldmap from "@/app/components/Worldmap";
 
 const projects = [
   {
@@ -16,8 +17,8 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Generator",
-    description: "Template ini sendiri!",
+    title: "Repository Secure-WEB",
+    description: "On Going",
     tags: ["Next.js", "Tailwind"],
     link: "#",
   },
@@ -33,6 +34,7 @@ export default function Portfolio() {
       <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
         <BackgroundEffect />
         <Hero />
+
       </section>
 
       {/* Projectcard Section with dark background */}
