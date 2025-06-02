@@ -7,7 +7,14 @@ export default function Hero() {
   return (
     
     <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4">
-      
+
+{/* Profile Picture */}
+<img
+        src="/images/Profile-images.jpg"
+        alt="Profile"
+        className="w-32 h-32 object-cover rounded-full border-4 border-white shadow-lg mb-6"
+      />
+
       {/* Background Effect */}
       <BackgroundEffect />
 

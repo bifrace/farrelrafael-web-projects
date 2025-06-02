@@ -33,7 +33,7 @@ export default function Portfolio() {
         <Hero />
       </section>
 
-      {/* Projects Section with dark background */}
+      {/* Projectcard Section with dark background */}
       <section id="projects" className="bg-gray-900 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-4">My Projects</h1>
@@ -45,6 +45,7 @@ export default function Portfolio() {
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
+
           </div>
         </div>
       </section>
