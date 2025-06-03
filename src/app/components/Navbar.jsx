@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link href="/" passHref>
             <div className="flex items-center gap-2 text-gray-800 dark:text-white cursor-pointer hover:scale-110 transition-transform">
               <Home className="w-6 h-6" />
-              <span className="text-xl font-bold">MyPortfolio</span>
+              <span className="text-xl font-bold">HomePage</span>
             </div>
           </Link>
           
