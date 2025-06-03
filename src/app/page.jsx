@@ -25,7 +25,7 @@ const allProjects = [
     description: "On Going",
     tags: ["Next.js", "Tailwind"],
     status: "on-going",
-    link: "https://github.com/bifrace/self-secure-portofolio",
+    link: "https://github.com/bifrace/farrelrafael-web-projects",
   },
   {
     id: 3,
