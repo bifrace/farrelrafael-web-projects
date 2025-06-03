@@ -31,11 +31,21 @@ export default function Portfolio() {
       <Marquetag />
 
       {/* Hero Section with Background GIF */}
-      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden max-w-7xl mx-auto px-6 text-center">
         <BackgroundEffect />
         <Hero />
 
       </section>
+
+      <section id="about" className="bg-gray-100 dark:bg-gray-900 py-16">
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">About Me</h2>
+    <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+      Saya adalah seorang web developer yang juga tertarik dalam bidang keamanan siber.
+      Fokus saya adalah membuat aplikasi web yang aman, modern, dan cepat.
+    </p>
+  </div>
+</section>
 
       {/* Projectcard Section with dark background */}
       <section id="projects" className="bg-gray-900 text-white py-16">

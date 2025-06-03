@@ -6,7 +6,7 @@ import BackgroundEffect from "@/app/components/BackgroundEffect";
 export default function Hero() {
   return (
     
-    <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4">
+    <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4 min-h-screen flex items-center justify-center">
 
 {/* Profile Picture */}
 <img
