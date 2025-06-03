@@ -31,7 +31,7 @@ export default function Portfolio() {
       <Marquetag />
 
       {/* Hero Section with Background GIF */}
-      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden max-w-7xl mx-auto px-6 text-center">
+      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden ">
         <BackgroundEffect />
         <Hero />
 
