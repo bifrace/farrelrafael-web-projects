@@ -16,7 +16,7 @@ const allProjects = [
     title: "Secure Web App",
     description: "Aplikasi dengan proteksi XSS dan SQLi.",
     tags: ["React", "Node.js", "Security"],
-    status: "On Project",
+    status: "on-project",
     link: "#",
   },
   {

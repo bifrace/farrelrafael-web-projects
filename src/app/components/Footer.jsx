@@ -35,7 +35,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4 text-white">Quick Links</h3>
           <ul className="space-y-3 text-sm text-gray-400">
             <li>
-              <Link href="/#about" className="flex items-center gap-2 hover:text-white transition">
+              <Link href="/#footer" className="flex items-center gap-2 hover:text-white transition">
                 <ChevronRight className="w-4 h-4" /> About
               </Link>
             </li>
@@ -45,12 +45,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/#contact" className="flex items-center gap-2 hover:text-white transition">
+              <Link href="/#footer" className="flex items-center gap-2 hover:text-white transition">
                 <ChevronRight className="w-4 h-4" /> Contact
               </Link>
             </li>
             <li>
-              <Link href="/faq" className="flex items-center gap-2 hover:text-white transition">
+              <Link href="/#faq" className="flex items-center gap-2 hover:text-white transition">
                 <ChevronRight className="w-4 h-4" /> FAQ
               </Link>
             </li>
