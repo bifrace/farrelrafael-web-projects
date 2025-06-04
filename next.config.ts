@@ -32,3 +32,13 @@ module.exports = {
     ];
   },
 };
+
+// next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    turbo: false, // Gunakan Webpack, bukan Turbopack
+  },
+}
+
+module.exports = nextConfig;
