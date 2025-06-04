@@ -16,7 +16,7 @@ const allProjects = [
     title: "Secure Web App",
     description: "Aplikasi dengan proteksi XSS dan SQLi.",
     tags: ["React", "Node.js", "Security"],
-    status: "done",
+    status: "On Project",
     link: "#",
   },
   {
@@ -32,7 +32,7 @@ const allProjects = [
     title: "UI Design System",
     description: "Membuat komponen UI reusable.",
     tags: ["Figma", "Design", "UI"],
-    status: "on-project",
+    status: "done",
     link: "#",
   },
 ];
