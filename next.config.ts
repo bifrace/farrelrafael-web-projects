@@ -1,9 +1,6 @@
 // next.config.js
 const securityHeaders = [
-  {
-    key: "Content-Security-Policy",
-    value: "default-src 'self'; script-src 'self'; object-src 'none';",
-  },
+
   {
     key: "X-Frame-Options",
     value: "SAMEORIGIN",
@@ -33,12 +30,3 @@ module.exports = {
   },
 };
 
-// next.config.js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    turbo: false, // Gunakan Webpack, bukan Turbopack
-  },
-}
-
-module.exports = nextConfig;
