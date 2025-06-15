@@ -35,6 +35,14 @@ const allProjects = [
     status: "done",
     link: "#",
   },
+  {
+    id: 4,
+    title: "Project Management Asset web",
+    description: "Membuat website penyewaan laptop",
+    tags: ["Figma", "Tailwind", "Next.js", "UI"],
+    status: "on-going",
+    link: "https://github.com/bifrace/manajemen-aset-laptop",
+  },
 ];
 
 const allTags = Array.from(new Set(allProjects.flatMap(p => p.tags)));
