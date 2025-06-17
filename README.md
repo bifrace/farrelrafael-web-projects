@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Farrel Rafael - Web Projects Collection
 
-## Getting Started
+Selamat datang di repositori **Farrel Rafael Web Projects**!  
+Repositori ini merupakan kumpulan proyek web interaktif, eksperimen UI/UX, dan latihan coding milik Farrel Rafael.  
+Proyek dikembangkan menggunakan stack modern seperti **Next.js**, **Tailwind CSS**, dan **React**.
 
-First, run the development server:
+---
+
+## 📁 Struktur Proyek
+
+Berikut struktur direktori utama dari repositori ini:
+
+
+---
+
+## 🚀 Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) – untuk animasi
+- [MongoDB / Firebase] – tergantung proyek
+
+---
+
+## 📌 Daftar Proyek Unggulan
+
+| Nama Proyek                  | Deskripsi Singkat                                      | Status   |
+|-----------------------------|--------------------------------------------------------|----------|
+| `secure-portfolio-generator`| Generator portofolio web aman dengan login & CSP      | ✅ Selesai |
+| `interactive-navbar-blobs`  | Navbar modern dengan efek morphing & marquee Spotify  | 🛠 WIP    |
+| `worldmap-timeline-ui`      | Roadmap visual dalam bentuk world map interaktif      | ✅ Selesai |
+| `manajemen-aset-laptop`     | Sistem manajemen penyewaan laptop dengan autentikasi  | 🛠 Progres |
+
+---
+
+## 🛠 Cara Menjalankan Proyek
+
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/bifrace/farrelrafael-web-projects.git
+   cd farrelrafael-web-projects
+
+
+### 📦 Masuk ke folder proyek yang ingin dijalankan:
+```bash
+cd nama-proyek
+```
+### Install dependensi:
+
+```bash
+npm install
+```
+### Jalankan proyek:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📷 Preview
+Beberapa preview UI dari proyek dapat ditemukan di folder assets/preview.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Tujuan Repositori
+Repositori ini dibuat sebagai:
 
-To learn more about Next.js, take a look at the following resources:
+Dokumentasi perkembangan skill & eksplorasi teknologi web.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Portofolio pribadi untuk pengembangan karier.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tempat eksperimen frontend-interaktif.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Kontribusi
+Kontribusi, feedback, atau saran sangat terbuka!
+Silakan buat Issue atau Pull Request jika ingin berpartisipasi.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📩 Kontak
+Farrel Rafael
+📧 Email: farrelrafael123@gmail.com
+🔗 - [LinKedin](https://www.linkedin.com/in/farrel-rafael-bifrace02/) | [Portfolio Website](https://farrelrafael-web-projects.vercel.app/)
+
